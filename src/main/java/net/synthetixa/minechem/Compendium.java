@@ -4,11 +4,15 @@ package net.synthetixa.minechem;
  * Created by ben on 7/12/16.
  */
 public class Compendium {
-    public static String MODID = "minechem";
-    public static String NAME = "Minechem";
-    public static String VERSION = "7.0.0";
-    public static String DEPS = "required-after:Tesla";
-    public static boolean USEMETA = false;
-    public static String MCVERSION = "[1.10.2]";
-    public static String UPDATEJSON = "";
+
+    //@Mod
+    public static final String MODID = "minechem";
+    public static final String NAME = "Minechem";
+    public static final String VERSION = "7.0.0";
+    public static final String DEPS = "required-after:Tesla";
+    public static final String MCVERSION = "[1.10.2]";
+
+    //@SidedProxy
+    public static final String CLIENTPROXY = "net.synthetixa.minechem.client.ClientProxy";
+    public static final String COMMONPROXY = "net.synthetixa.minechem.common.CommonProxy";
 }
